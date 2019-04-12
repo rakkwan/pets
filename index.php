@@ -22,7 +22,6 @@
     // define a default route
     $f3->route('GET /', function()
     {
-        //echo '<h1>Hola!</h1>';
         $view = new Template();
         echo $view->render('views/home.html');
     });
